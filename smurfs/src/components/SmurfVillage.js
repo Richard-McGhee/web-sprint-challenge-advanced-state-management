@@ -11,7 +11,7 @@ function SmurfVillage(props) {
                     <div key={smurf.id}>
                         <h2>{smurf.name}</h2>
                         <h3>Height: ...they're all small</h3>
-                        <p>Age: Very old, but more specifically --`'{">"}'` {smurf.age}</p>
+                        <p>Age: Very old, but more specifically --{">"} {smurf.age}</p>
                     </div>
                     
                 ))
