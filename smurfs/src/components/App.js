@@ -18,8 +18,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1>SMURFS! W/Redux</h1>
-        <SmurfVillage />
         <SmurfMaker />
+        <SmurfVillage />
       </div>
     );
   }
